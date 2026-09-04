@@ -2,9 +2,9 @@
 apiVersion: policy/v1
 kind: PodDisruptionBudget
 metadata:
-  name: backend-go
+  name: pdb
 spec:
   maxUnavailable: 100%
   selector:
     matchLabels:
-      service_name: dpl
+      service_name: backend-go
