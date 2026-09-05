@@ -65,7 +65,7 @@ spec:
       allowedRoutes:
         kinds:
           - group: gateway.networking.k8s.io
-          - kind: HTTPRoute
+            kind: HTTPRoute
         namespaces:
           from: Selector
           selector:
