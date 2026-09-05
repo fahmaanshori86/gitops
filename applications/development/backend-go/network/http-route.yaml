@@ -8,7 +8,7 @@ spec:
       sectionName: http
       namespace: argocd
   hostnames:
-    - "localhost"
+    - "localhost-course"
   rules:
     - matches:
         - path:
